@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/nnddzz/reactjs-blog/issues"
   },
-  "homepage": "https://github.com/nnddzz/reactjs-blog#readme"
+  "homepage": "https://github.com/nnddzz/reactjs-blog#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
 }
