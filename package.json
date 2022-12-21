@@ -1,0 +1,22 @@
+{
+  "name": "reactjs-blog",
+  "version": "1.0.0",
+  "description": "Blog app build with react js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnddzz/reactjs-blog.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Muhammad Indra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nnddzz/reactjs-blog/issues"
+  },
+  "homepage": "https://github.com/nnddzz/reactjs-blog#readme"
+}
