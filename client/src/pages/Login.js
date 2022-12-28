@@ -5,10 +5,10 @@ const Login = () => {
   return (
     <section className="h-screen">
       <div className="container px-6 py-12 h-full">
-        <h1 className="text-4xl font-bold text-gray-800 text-center">
+        <h1 className="text-4xl font-bold text-gray-800 text-center pb-12">
           Good to see you again
         </h1>
-        <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
+        <div className="flex justify-center items-center flex-wrap h-min g-6 text-gray-800">
           <div className="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
             <img
               src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
@@ -49,12 +49,6 @@ const Login = () => {
                     Remember me
                   </label>
                 </div>
-                <a
-                  href="#!"
-                  className="text-blue-600 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 duration-200 transition ease-in-out"
-                >
-                  Forgot password?
-                </a>
               </div>
               {/* Submit button */}
               <button
@@ -67,12 +61,13 @@ const Login = () => {
               </button>
               <p className="font-gray-800 mt-2 pt-1 mb-0">
                 Don't have an account?
-                <a
-                  href="#!"
+                <Link
+                  to={"/register"}
                   className="text-blue-600 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 duration-200 transition ease-in-out"
                 >
-                  <Link to={"/register"}>Register</Link>
-                </a>
+                  {" "}
+                  Register
+                </Link>
               </p>
             </form>
           </div>
